@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora</title>
+    <link href="img/Screenshot_2025-03-21_132050-removebg-preview.png" rel="icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bitácora de Dámaris</h1>
+    
+    <!-- Menú con navbar-->
+    <nav class="navbar">
+        <a href="index.html">Inicio</a> 
+        <a href="#dom">DOM</a> <!--El # es para id-->
+        <a href="#seo">SEO</a>
+        <a href="#etiquetas">Etiquetas</a>
+        <a href="#iframes">Iframes</a>
+        <a href="#listas">Listas</a>
+        <a href="#comentarios">Comentarios</a>
+        <a href="#style">Style</a>
+        <a href="nuevo.html">Nuevo</a>
+    </nav>
+
+    <!-- Secciones de la página -->
+    <section id="dom">
+        <article>
+            <h2>DOM</h2>
+            <p>El DOM es lo que estructura al documento HTML, te dice qué etiquetas están dentro de otras (como las muñecas rusas).</p>
+        </article>
+        <article id="seo">
+            <h2>SEO</h2>
+            <p>Hay buenas prácticas que ayudan al SEO para que tu website sea de las primeras opciones en las búsquedas de navegador:</p>
+            <ol>
+                <li>Poner el "lang" en el idioma en el que esté redactado el sitio web.</li>
+                <li>Usar el "H1" para poner la información más relevante, para que el SEO sepa de qué trata la página.</li>
+            </ol>
+        </article>
+    </section>
+    
+    <section id="etiquas">
+        <h2>Etiquetas HTML</h2>
+        <div class="etiquetas">
+            <h3>h</h3>
+            <p>Los "h" son etiquetas que te permiten ordenar los títulos o subtítulos, y van del h1 al h6.</p>
+        </div>
+        <div class="etiquetas">
+            <h3>a</h3>
+            <p>La etiqueta "a" te ayuda a crear enlaces directos a otras páginas web.</p>
+            <a href="https://www.youtube.com/watch?v=KGCFESM5r9Q"> Video</a><br>
+        </div>
+    </section>
+
+    <div id="iframes" class="iframes">
+        <h3>iframe</h3>
+        <p>Los "iframe" te permiten agregar recursos como:</p>
+        <ul>
+            <li>Videos de YouTube</li>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KGCFESM5r9Q?si=UlXXgWakWQ2pT3ct" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <li>Ubicaciones en Google Maps</li>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.0424201584588!2d-106.43573272437958!3d31.742043074113187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ea4359ba3469d5%3A0x5fdab3bc5a4f953c!2sUACJ%20IIT-IADA!5e0!3m2!1ses-419!2smx!4v1738964158840!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </ul>
+    </div>
+    <div class="etiquetas">
+        <h3>img</h3>
+        <p>Esta etiqueta permite agregar imágenes en tu website.</p>
+        <img width="360" height="315" src="https://static.nike.com/a/images/w_960,q_auto,f_auto/06569bd0-a651-44f5-ad73-9f00d3e33e7b/fecha-de-lanzamiento-del-air-jordan-1-chicago-dz5485-612.jpg" alt="">
+    </div>
+    <div class="elistas" id="listas">
+        <h3>Listas</h3>
+        <p>Existen dos tipos de listas: "ul" y "ol".</p>
+        <div class="etiquetalistas">
+            <h4>ul</h4>
+            <p>Se usa para menús y aparece con viñetas:</p>
+            <ul>
+                <li>Jordan 1</li>
+                <li>Air Force</li>
+                <li>Dunk</li>
+                <li>Blazer</li>
+            </ul>
+        </div>
+        <div class="etiquetalistas">
+            <h4>ol</h4>
+            <p>Se usa para listas ordenadas numéricamente:</p>
+            <ol start="10">
+                <li>Jordan 1</li>
+                <li>Air Force</li>
+                <li>Dunk</li>
+                <li>Blazer</li>
+            </ol>
+        </div>
+    </div>
+    <div class="etiquetas" id="comentarios">
+        <h3>Hacer comentarios</h3>
+        <p>Se usan con "!-- Comentario --" dentro de los signos de mayor y menor.</p>
+    </div>
+    <div class="etiquetas" id="style">
+        <h3>Style</h3>
+        <p>Esta etiqueta permite mejorar visualmente el HTML sin usar CSS externo.</p>
+    </div>
+    <div class="etiquetas">
+        <h4>Color</h4>
+        <p>Permite cambiar el color del texto:</p>
+        <p style="color: yellow;">Texto amarillo</p>
+        <p style="color: blue;">Texto azul</p>
+    </div>
+    <img class="imagenferrari" width="760" height="615" src="img/DiagramaFlujo.png" alt="">
+
+    <div class="imagenfondo"></div>
+    <div class="cuadrado">
+        <p class="txtcolor">Lorem ipsum dolor sit amet consectetur adipiscing elit dui primis, turpis tristique dictum dictumst phasellus egestas posuere donec parturient volutpat, montes interdum lectus taciti laoreet convallis nisi suscipit. Lobortis sapien purus penatibus erat convallis primis diam pretium, vivamus egestas ultrices dictumst tortor suspendisse nulla, mauris tristique dapibus praesent volutpat venenatis scelerisque. Mus feugiat risus vehicula habitant etiam purus id, elementum neque senectus vestibulum vulputate convallis, dictumst vitae natoque fermentum enim bibendum. Magnis felis mauris sagittis nunc bibendum fames ullamcorper, sem orci primis condimentum aenean vulputate.
+
+            <br> nec habitasse tempus rutrum lectus mus facilisis justo sociis, diam at fames metus netus odio magna erat class, lacinia viverra augue id quam dictum sem risus. Litora fermentum nisi consequat vivamus primis ornare placerat natoque integer, malesuada pretium faucibus lectus justo posuere condimentum tristique dictumst ridiculus, feugiat dapibus hac netus pulvinar aptent diam ultricies. Velit eros ridiculus senectus vulputate habitant habitasse, eget euismod ante ornare curae, quis parturient lacus tortor sed. Dui sapien curabitur platea tellus suscipit velit massa integer aptent, imperdiet ornare molestie odio cum leo nulla ullamcorper.
+            <br> <a href="">Click aqui</a>
+            <ul>
+                <li>Hola</li>
+                <li>Hola</li>
+                <li>Hola</li>
+            </ul>
+        </div>
+    <p>Hola</p>
+    <div class="uno">
+
+    </div>
+    <div class="dos">
+    
+    </div>
+    <div class="tres">
+        <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+        </svg>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ciudad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana</td>
+                <td>30</td>
+                <td>Buenos Aires</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>24</td>
+                <td>Lima</td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="/actionPage.php"> <!---->
+    <label>Nombres: </label><!--Solo se usa en formularios-->
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre...">
+    <label>Pais: </label>
+    <select name="pais" id="pais">
+        <option value="australia">Australia</option>
+        <option value="mexico">Mexico</option>
+        <option value="usa">Estados Unidos</option>
+
+    </select>
+    </form>
+    <section> <!--El span es una etiqueta en línea que se usa para aplicar estilos o manipular una parte específica del texto-->
+        <h2>Etiqueta &lt;span&gt;</h2>
+        <p>El span es una etiqueta en línea que se usa para aplicar estilos o manipular una parte específica del texto</p>
+        <p>Este es un <span class="resaltado">texto resaltado</span> usando la etiqueta &lt;span&gt;.</p>
+      </section>
+    
+      <section> <!--es un selector de pseudo-clase que aplica estilos cuando el cursor pasa sobre un elemento-->
+        <h2>Pseudo-clase :hover</h2>
+        <p>es un selector de pseudo-clase que aplica estilos cuando el cursor pasa sobre un elemento</p>
+        <a href="#" class="enlace-hover">Pasa el mouse sobre mí</a> 
+        <button class="btn">Click aqui</button>
+      </section>
+    
+      <section> <!--Son selectores que se activan bajo ciertas condiciones, como :hover, :first-child, :last-child, etc-->
+        <h2>Selectores de pseudo-clase</h2>
+        <ul class="lista-pseudo">
+          <li>Primer elemento</li>
+          <li>Segundo elemento</li>
+          <li>Tercer elemento</li>
+        </ul>
+      </section>
+    
+      <section> <!--Permiten aplicar estilos a elementos que tienen ciertos atributos-->
+        <h2>Selectores de atributo</h2>
+        <p>Permiten aplicar estilos a elementos que tienen ciertos atributos</p>
+        <input type="text" placeholder="Nombre">
+        <input type="email" placeholder="Correo">
+      </section>
+    
+      <section> <!--Permiten seleccionar elementos en relación con otros-->
+        <h2>Selectores de relación</h2>
+        <p>Permiten seleccionar elementos en relación con otros</p>
+        <div class="padre">
+          <p>Este párrafo está dentro de un div con clase <code>padre</code>.</p>
+          <p>Otro párrafo hijo.</p>
+        </div>
+        <div>
+          <p>Este párrafo está fuera del div padre.</p>
+        </div>
+      </section>
+      <section>
+        <h2>Display: inline-block</h2>
+      <div class="dos"></div>
+      <div class="dos"></div>
+      <div class="dos"></div>
+        </section>
+        <section>
+            <h2>Carrusel de imágenes</h2>
+            <div id="slideshow">
+                <div class="slide-wrapper">
+                    <div class="slide">
+                        <h1 class="slide-number">1</h1>
+                    </div>
+                    <div class="slide">
+                        <h1 class="slide-number">2</h1>
+                    </div>
+                    <div class="slide">
+                        <h1 class="slide-number">3</h1>
+                    </div>
+                    <div class="slide">
+                        <h1 class="slide-number">4</h1>
+                    </div>
+                    <div class="slide">
+                        <h1 class="slide-number">5</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+</body>
+</html>
