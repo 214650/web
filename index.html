@@ -14,19 +14,19 @@
   <!-- Menú sticky -->
   <nav>
     <ul>
-      <li><a href="#">Parcial 1</a></li>
+      <li><a href="#parcial1">Parcial 1</a></li>
       <li><a href="#parcial2">Parcial 2</a></li>
-      <li><a href="#">Parcial 3</a></li>
+      <li><a href="#parcial3">Parcial 3</a></li>
     </ul>
   </nav>
 
   <header>
-    <p class="info">Damaris Esmelani Varela Torres / HTML5 y CSS3 Adaptativo / Grupo A / Jueves 02 de Octubre de 2025</p>
+    <p class="info">Damaris Esmelani Varela Torres / HTML5 y CSS3 Adaptativo / Grupo A / Lunes 27 de Octubre de 2025</p>
     <h1>Bitácora</h1>
   </header>
 
   <!-- Contenido -->
-  <section class="contenedor">
+  <section class="contenedor" id="parcial1">
     <h2>DOM</h2>
     <p><b>Ejemplo (plano de la casa en Los Sims):</b> Cuando entras al modo “Construir” en Los Sims, puedes ver todo lo que tiene tu casa: paredes, muebles, ventanas, sims, plantas. Ese inventario y la forma en que todo está colocado es como el DOM.</p>
 
@@ -106,6 +106,8 @@
       <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Stranger_Things_logo.png" alt="banner de sitio">
     </picture>
   </section>
+
+  <!--PARCIAL 2-->
 <section class="infografia" id="parcial2">
     <h2>Infografía de la clase HTML5 y CSS3 Adaptativo</h2>
     <a href="https://drive.google.com/drive/folders/1oh2WNWy1TwOBWfTGFKsciVcX_nn87sW1?usp=drive_link" target="_blank">
@@ -153,27 +155,27 @@
     <h3>Celular</h3>
     <img src="IMG/Cel.jpg" alt="">
   </section>
-  <section class="contenedor">
+  <section class="contenedor" id="parcial3">
         <div class="section">
-        <h2>Proyecto parcial 2</h2>
+        <h2>Proyecto parcial 2: PAGINA WEB</h2>
         <a href="https://alumnosuacj-my.sharepoint.com/:b:/g/personal/al248178_alumnos_uacj_mx/EQHJBQzuDSlKvQkcO4V6-XYB8YjrzOHN1LGDVnGnz6C7YA?e=bsQnAU" target="_blank">
           <button class="btn-canva">Ver Proyecto del Parcial 2</button>
         </a>
-        <h3>Colores</h3>
+        <h3>Colores del Website</h3>
         <p><strong>Morado:</strong> Representa magia, misterio y resolución de problemas.</p>
         <p><strong>Naranja:</strong> Llama la atención y transmite comodidad.</p>
         <p><strong>Azul oscuro:</strong> Evoca confianza y profesionalismo.</p>
     </div>
 
     <div class="section">
-        <h3>Tipografías</h3>
+        <h3>Tipografías utilizadas</h3>
         <p><strong>Libre Baskerville:</strong> Usada para títulos, da elegancia y autoridad.</p>
         <p><strong>Lora:</strong> Ideal para subtítulos, complementa a Libre Baskerville.</p>
         <p><strong>Merriweather:</strong> Perfecta para párrafos, altamente legible en pantallas.</p>
     </div>
 
     <div class="section">
-        <h3>Competencia</h3>
+        <h3>Competencia y Diferenciadores</h3>
         <div class="competitor">
             <h4>Cuevana</h4>
             <p>Diferenciador: Ofrecen una amplia selección de películas y series, no novelas.</p>
@@ -202,73 +204,67 @@ document.write("<h2 style='text-align:center; color:#0716AF;'>Ejemplo de ciclos 
 let nombre = "Dámaris";
 console.log("Entrenamiento de " + nombre);
 
-// 🏋️‍♀️ FOR
+// FOR
 document.write("<h3 style='color:#ED217C;'>Ejemplo FOR: Repeticiones</h3>");
 for (let rep = 1; rep <= 10; rep++) {
   document.write("Repetición " + rep + " completada 🏋️‍♀️<br>");
 }
 
-// 💥 WHILE
+// WHILE
 document.write("<h3 style='color:#0716AF;'>Ejemplo WHILE: Ejercicios completados</h3>");
 let ejercicios = 0;
 while (ejercicios < 3) {
   ejercicios++;
-  document.write("Ejercicio " + ejercicios + " terminado ✅<br>");
+  document.write("Ejercicio " + ejercicios + " terminado <br>");
 }
 
-// 🔁 DO WHILE
+// DO WHILE
 document.write("<h3 style='color:#F2921D;'>Ejemplo DO WHILE: Series</h3>");
 let series = 1;
 do {
-  document.write("Serie " + series + " lista 💪<br>");
+  document.write("Serie " + series + " lista <br>");
   series++;
 } while (series <= 4);
 
 // Mensaje final
-document.write("<p style='margin-top:20px; font-weight:bold; text-align:center;'>Entrenamiento completado con éxito! 🏆</p>");
+document.write("<p style='margin-top:20px; font-weight:bold; text-align:center;'>Entrenamiento completado con éxito! </p>");
 document.write("</section>");
 
-
-
-// ============================================================
-// 🧠 SECCIÓN EXTRA: FUNCIONES Y EVENTOS (requeridos en bitácora)
-// ============================================================
-
-// 🔹 FUNCIONES
+// FUNCIONES
 // Una función sirve para agrupar código reutilizable
 function saludarUsuario() {
-  console.log("¡Bienvenida al entrenamiento, " + nombre + "! 💪");
+  console.log("¡Bienvenida al entrenamiento, " + nombre );
 }
 
-// 🔹 LLAMADA A UNA FUNCIÓN
-// Aquí estamos ejecutando la función definida arriba
+// LLAMADA A UNA FUNCIÓN
+// Ejecutando la función definida arriba
 saludarUsuario();
 
-// 🔹 FUNCIÓN QUE RETORNA VALORES
-// Esta función calcula las calorías quemadas según los minutos de ejercicio
+// FUNCIÓN QUE RETORNA VALORES
+// Calcular las calorías quemadas según los minutos de ejercicio
 function calcularCalorias(minutos) {
-  let calorias = minutos * 5; // se estima 5 calorías por minuto
-  return calorias; // retorna el valor calculado
+  let calorias = minutos * 5;
+  return calorias; 
 }
 
-// 🔹 IMPRIMIR EN CONSOLA EL RESULTADO DE UNA FUNCIÓN
+// IMPRIMIR EN CONSOLA EL RESULTADO DE UNA FUNCIÓN
 let totalCalorias = calcularCalorias(45);
-console.log("Calorías quemadas en 45 minutos: " + totalCalorias + "🔥");
+console.log("Calorías quemadas en 45 minutos: " + totalCalorias );
 
-// 🔹 GETELEMENTBYID
+// GETELEMENTBYID
 // Sirve para obtener un elemento del HTML por su id
-// Primero escribimos un botón para que el usuario lo vea:
+// Ejemplo con botón
 document.write("<button id='botonGym' style='margin:20px; padding:10px; background:#5A189A; color:white; border:none; border-radius:10px;'>Iniciar Entrenamiento</button>");
 
-// Luego accedemos a ese botón con getElementById
+// Acceder al botón con getElementById
 let boton = document.getElementById("botonGym");
 
-// 🔹 ADDEVENTLISTENER
-// Sirve para detectar cuando el usuario hace algo (por ejemplo, clic)
-// Aquí mostramos un mensaje en consola cuando el botón se presiona
+// ADDEVENTLISTENER
+// Sirve para detectar cuando el usuario hace algo (clic, scroll, etc)
+// Mstrar mensaje cuando el botón se presiona
 boton.addEventListener("click", function() {
-  console.log("¡Entrenamiento iniciado! 🏋️‍♀️🔥");
-  alert("¡Entrenamiento iniciado! 💪");
+  console.log("¡Entrenamiento iniciado! ");
+  alert("¡Entrenamiento iniciado! ");
 });
 </script>
 
