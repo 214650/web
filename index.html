@@ -15,6 +15,8 @@
     <!-- CSS PERSONAL -->
     <link rel="stylesheet" href="style.css">
 
+    <link rel="icon" type="image/png" href="IMG/Logo.png">
+
     <title>Falconi</title>
 </head>
 <body>
@@ -94,25 +96,25 @@
             <div class="row row-cols-2 g-4 row favoritos-row">
                 
                 <div class="col text-center">
-                    <img src="IMG/maple tocino.png" class="producto-img rounded-circle" alt="">
+                    <img src="IMG/maple tocino.png" class="img-fluid dona-producto" alt="">
                     <p class="producto-nombre mt-2">Maple tocino</p>
                     <p>$20.00</p>
                 </div>
 
                 <div class="col text-center">
-                    <img src="IMG/quesocremamazaoan.png" class="producto-img rounded-circle" alt="">
+                    <img src="IMG/quesocremamazaoan.png" class="img-fluid dona-producto" alt="">
                     <p class="producto-nombre mt-2">Queso crema</p>
                     <p>$20.00</p>
                 </div>
 
                 <div class="col text-center">
-                    <img src="IMG/nutellamazapan.png" class="producto-img rounded-circle" alt="">
+                    <img src="IMG/nutellamazapan.png" class="img-fluid dona-producto" alt="">
                     <p class="producto-nombre mt-2">Nutella mazapán</p>
                     <p>$20.00</p>
                 </div>
 
                 <div class="col text-center">
-                    <img src="IMG/zarzamora.png" class="producto-img rounded-circle" alt="">
+                    <img src="IMG/zarzamora.png" class="img-fluid dona-producto" alt="">
                     <p class="producto-nombre mt-2">Relleno zarzamora</p>
                     <p>$20.00</p>
                 </div>
@@ -123,6 +125,37 @@
     </div>
 
 </section>
+<!-- HISTORIA -->
+<section class="historia-section container py-5">
+
+    <div class="row align-items-center">
+
+        <!-- Columna izquierda -->
+        <div class="col-12 col-md-6 text-center text-md-start mb-4 mb-md-0">
+            <h2 class="historia-titulo">Una historia de<br>tradición desde 1990</h2>
+
+            <p class="historia-texto mt-4">
+                Desde 1990, en Falconi Donas Artesanales elaboramos donas 
+                con recetas tradicionales e ingredientes de calidad.
+                <br><br>
+                Cada pieza es hecha a mano, conservando el sabor auténtico 
+                que nos distingue por más de tres décadas.
+            </p>
+
+            <h3 class="historia-pregunta mt-5">¿Tienes alguna pregunta o sugerencia?</h3>
+            <a href="contacto.html" class="btn btn-primary historia-btn">Contáctanos ahora</a>
+        </div>
+
+        <!-- Columna derecha (imagen) -->
+        <div class="col-12 col-md-6 text-center">
+            <img src="IMG/Melchor.jpg" class="historia-img img-fluid" alt="Tienda Falconi">
+        </div>
+
+    </div>
+
+</section>
+<br><br>
+
 
     <div class="banner" id="banner">
         <p class="txtbanner">
@@ -157,26 +190,38 @@
             banner.style.display = "none";
         });
     </script>
-    <footer id="footer">
+
+<footer id="footer">
+    <div class="footer-container">
+
         <img src="IMG/Logo.png" alt="logo" id="logo">
-        <h1 id="tfooter">Contáctanos</h1>
-        <div id="footerInfo">
-            <div class="mailcel">
-                <img src="IMG/Correo.png" alt="correo">
+
+        <h1 class="footer-title">Contáctanos</h1>
+
+        <div class="footer-info">
+            <div class="footer-item">
+                <i class="bi bi-envelope footer-icon"></i>
                 <p class="txtfooter">falconi.donas.comercial@gmail.com</p>
             </div>
-            <div class="mailcel">
-                <img src="IMG/Telefono.png" alt="telefono">
+
+            <div class="footer-item">
+                <i class="bi bi-telephone footer-icon"></i>
                 <p class="txtfooter">+52 (656) 6344768</p>
             </div>
         </div>
-        <h1 id="tfooter">Redes sociales</h1>
-        <div id="footerRedes">
-            <img src="img/facebook.png" alt="Facebook">
-            <img src="img/instagram.png" alt="Instagram">
-            <img src="img/tiktok.png" alt="TikTok">
+
+        <h1 class="footer-title">Redes sociales</h1>
+
+        <div class="footer-redes">
+            <a href="#" class="footer-social"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="footer-social"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="footer-social"><i class="bi bi-tiktok"></i></a>
         </div>
-    </footer>
+
+    </div>
+</footer>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
